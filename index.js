@@ -42,7 +42,9 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.style.overflow = '';
     };
 
+
     activityCards.forEach(card => {
+        // Open modal on card click
         card.addEventListener('click', () => openModal(card));
         card.addEventListener('keydown', (event) => {
             if (event.key === 'Enter' || event.key === ' ') {
@@ -50,6 +52,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 openModal(card);
             }
         });
+
+        // Prevent default and open modal when clicking the blue text link
+        const headerLink = card.querySelector('.activity-header a');
+        if (headerLink) {
+            headerLink.addEventListener('click', (event) => {
+                event.preventDefault();
+                openModal(card);
+            });
+        }
     });
 
     closeButton.addEventListener('click', closeModal);
