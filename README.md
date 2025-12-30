@@ -19,16 +19,7 @@ I Love Making Small Tools for Small Problems. <br>
 </div>
 
 
-# 🏆Trophies
-![](https://github-profile-trophy.vercel.app/?username=Ravish-Vishwakarma&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-
-
-
-
-
-
----
 
 [![My Projects](Myprojects2.png)](https://ravish-vishwakarma.github.io/Ravish-Vishwakarma/)
 
