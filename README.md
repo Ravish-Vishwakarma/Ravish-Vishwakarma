@@ -19,11 +19,6 @@ I Love Making Small Tools for Small Problems. <br>
 </div>
 
 
-
-
-[![My Projects](Myprojects2.png)](https://ravish-vishwakarma.github.io/Ravish-Vishwakarma/)
-
-
 </div>
 
 
